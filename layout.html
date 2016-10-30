@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>stocking-game</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">New to the Stocking Sum Game? Click here for instructions.</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Each stocking has a secret value.  Your goal is to determine the values of each and to use those values to add them so that their sum equals the Goal Number.</p>
+  </div>
+</div>
+    <div class="row">
+        <div class="scoreboard">
+            <div id="scoreArea">
+                <p>Goal Number:</p>
+                <span id="random-area"></span>
+                <p>Current Sum:</p>
+                <span id="score-area"></span>
+                
+            </div>
+           
+            <div id="winArea"></div>
+        </div>
+        
+        <div class="button">
+            <div id="crystal-area"></div>
+        </div>
+    </div>
+    <footer>Nancy Gorman Lukas | 2016</footer>
+</body>
+
+</html>
